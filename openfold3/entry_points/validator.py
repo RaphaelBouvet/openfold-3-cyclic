@@ -53,7 +53,7 @@ class CheckpointConfig(BaseModel):
     """Settings for training checkpoint writing."""
 
     monitor: str | None = None
-    mode: str | None = "min" 
+    mode: str | None = "min"
     every_n_epochs: int = 1
     auto_insert_metric_name: bool = False
     filename: str | None = None
