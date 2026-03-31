@@ -73,10 +73,10 @@ class Chain(BaseModel):
     def serialize_enum_name(self, v: MoleculeType, _info):
         return v.name
     
-    @model_validator(mode="after")
-    def check_cyclic(self):
-        if self.molecule_type != "protein" & self.cyclic:
-            raise ValueError('Only Protein chains can be cyclic')
+    # @model_validator(mode="after")
+    # def check_cyclic(self):
+    #     if (self.molecule_type != "protein") & self.cyclic:
+    #         raise ValueError('Only Protein chains can be cyclic')
         
     # TODO(jennifer): Add validations to this class
     # - if molecule type is protein / dna / rna - must specify sequence
