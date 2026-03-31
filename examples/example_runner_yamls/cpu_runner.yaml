@@ -1,2 +1,12 @@
 pl_trainer_args:
   accelerator: cpu
+
+model_update:
+  presets:
+    - predict
+    - low_mem
+  custom:
+    settings:
+      memory:
+        eval:
+          use_deepspeed_evo_attention: false
