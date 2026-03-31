@@ -36,6 +36,7 @@ TOKEN_DIM_INDEX_MAP = {
     "mol_sym_id": [-1],
     "mol_sym_token_index": [-1],
     "mol_sym_component_id": [-1],
+    "is_cyclic": [-1]
 }
 
 

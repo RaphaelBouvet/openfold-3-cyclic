@@ -347,6 +347,7 @@ FULL_TOKEN_DIM_INDEX_MAP = {
     "template_backbone_frame_mask": [-1],
     "template_distogram": [-2, -3],
     "template_unit_vector": [-2, -3],
+    "is_cyclic": [-1]
 }
 FULL_MSA_DIM_INDEX_MAP = {
     "msa": [-3],
@@ -397,6 +398,7 @@ FEATURE_CORE_DTYPES = {
     "is_atomized": torch.int32,
     "start_atom_index": torch.int32,
     "token_mask": torch.float32,
+    "is_cyclic": torch.int32
 }
 FEATURE_GT_DTYPES = {
     "atom_positions": torch.float32,
