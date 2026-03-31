@@ -1,0 +1,14 @@
+{
+	"queries":{
+		"cyclic_peptide_mono": {
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "DPETKIM",
+                    "cyclic": true
+				}
+			]
+		}
+	}
+}
