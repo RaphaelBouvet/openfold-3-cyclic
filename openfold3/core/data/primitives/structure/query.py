@@ -627,6 +627,12 @@ def structure_with_ref_mols_from_query(query: Query) -> StructureWithReferenceMo
                 np.repeat(entity_to_id[representation], len(segment_atom_array)),
             )
 
+            is_cyclic_val = int(getattr(chain, "cyclic", False))
+            segment_atom_array.set_annotation(
+                "is_cyclic",
+                np.full(len(segment_atom_array), is_cyclic_val, dtype=np.int32),
+            )
+
             # Append atom array to end
             if atom_array is None:
                 atom_array = segment_atom_array
