@@ -17,7 +17,6 @@
 import gzip
 import logging
 import pickle
-import gzip
 from pathlib import Path
 from typing import Literal, NamedTuple
 
