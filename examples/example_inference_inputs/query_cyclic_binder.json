@@ -1,0 +1,23 @@
+{
+	"queries":{
+		"cyclic_binder": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "YNDFTVDEETGEV",
+                    "cyclic": true
+				},
+				{
+					"molecule_type": "protein",
+					"chain_ids": "B",
+					"sequence": "GSSHHHHHHSSGLVPRGSHAPKVGRLIYTAGGYFRQSLSYLEAYNPSDGTWLRLADLQVPRSGLAGCVVGGLLYAVGGRNNSPDGNTDSSALDCYNPMTNQWSPCAPMSVPRNRIGVGVIDGHIYAVGGSHGCIHHNSVERYEPERDEWHLVAPMLTRRIGVGVAVLNRLLYAVGGFDGTNRLNSAECYYPERNEWRMITAMNTIRSGAGVCVLHNCIYAAGGYDGQDQLNSVERYDVETETWTFVAPMKHRRSALGITVHQGRIYVLGGYDGHTFLDSVECYDPDTDTWSEVTRMTSGRSGVGVAVT"
+				}
+		
+			]
+		}
+	}
+}
