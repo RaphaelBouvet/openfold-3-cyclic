@@ -1,6 +1,32 @@
 {
 	"queries":{
-		"cyclic_peptide_mono": {
+		"cyclic_peptide_mono1": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "WMPGRDP",
+                    "cyclic": true
+				}
+			]
+		},
+		"cyclic_peptide_mono2": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "RDPWTGDP",
+                    "cyclic": true
+				}
+			]
+		},
+		"cyclic_peptide_mono3": {
             "use_msas": false,
             "use_paired_msas": false,
             "use_main_msas": false,
@@ -9,6 +35,58 @@
 					"molecule_type": "protein",
 					"chain_ids": "A",
 					"sequence": "AWIMPELGL",
+                    "cyclic": true
+				}
+			]
+		},
+		"cyclic_peptide_mono4": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "PDPRWADLGL",
+                    "cyclic": true
+				}
+			]
+		},
+		"cyclic_peptide_mono5": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "LPGTEWERMHG",
+                    "cyclic": true
+				}
+			]
+		},
+		"cyclic_peptide_mono6": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "YNMRIGDIYYPE",
+                    "cyclic": true
+				}
+			]
+		},
+		"cyclic_peptide_mono7": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "TGEYDAAGRLDPA",
                     "cyclic": true
 				}
 			]
