@@ -23,3 +23,6 @@ cutlass/
 
 # uv environments
 .venv/
+
+# output_dirs
+test_cyclic*/
