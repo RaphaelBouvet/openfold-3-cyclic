@@ -1,0 +1,24 @@
+{
+	"queries":{
+		"cyclic_peptide_mono": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "LQTRPSAEPD",
+                    "cyclic": true,
+					"non_canonical_residues": {
+						"1": "DLE",
+						"3": "DTH",
+						"4": "DAR",
+						"5": "DSN",
+						"9": "DAS"
+					}
+				}
+			]
+		}
+	}
+}
