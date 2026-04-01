@@ -1,6 +1,6 @@
 {
 	"queries":{
-		"cyclic_peptide_mono": {
+		"cyclic_peptide_mono_ncaa_7-1": {
             "use_msas": false,
             "use_paired_msas": false,
             "use_main_msas": false,
@@ -8,17 +8,90 @@
 				{
 					"molecule_type": "protein",
 					"chain_ids": "A",
-					"sequence": "LQTRPSAEPD",
+					"sequence": "DTNPTKN",
                     "cyclic": true,
 					"non_canonical_residues": {
-						"1": "DLE",
-						"3": "DTH",
-						"4": "DAR",
-						"5": "DSN",
-						"9": "DAS"
+						"3": "DSG",
+						"4": "DPR",
+						"6": "DLY"
+
+					}
+				}
+			]
+		},
+		"cyclic_peptide_mono_ncaa_7-2": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "DQSEPHP",
+                    "cyclic": true,
+					"non_canonical_residues": {
+						"5": "DPR",
+						"7": "DPR"
+
+					}
+				}
+			]
+		},
+		"cyclic_peptide_mono_ncaa_7-3": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "QDPPKTD",
+                    "cyclic": true,
+					"non_canonical_residues": {
+						"4": "DPR",
+						"6": "DTH",
+						"7": "DAS"
+					}
+				}
+			]
+		},
+		"cyclic_peptide_mono_ncaa_8-1": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "DDPTPRQQ",
+                    "cyclic": true,
+					"non_canonical_residues": {
+						"5": "DPR",
+						"6": "DAR",
+						"8": "DGN"
+					}
+				}
+			]
+		},
+		"cyclic_peptide_mono_ncaa_8-2": {
+            "use_msas": false,
+            "use_paired_msas": false,
+            "use_main_msas": false,
+			"chains": [
+				{
+					"molecule_type": "protein",
+					"chain_ids": "A",
+					"sequence": "PQRQPQRE",
+                    "cyclic": true,
+					"non_canonical_residues": {
+						"3":"DAR", 
+						"5":"DPR",
+						"6":"DGN",
+						"8":"DGL"
 					}
 				}
 			]
 		}
+
 	}
 }
